@@ -33,3 +33,25 @@ td:nth-child(5) {text-align: center;}
 h1 {
     font-size: 2em;
 }
+
+/* figure {
+    display: inline-block;
+    width: 15%;
+ }
+
+ img {
+    width: 100%;
+}
+*/
+
+#RadlBilder {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-self: center;
+    column-gap: 0%;
+    row-gap: 0%;
+}
+
+#RadlBilder > figure > img {
+    width: 100%;
+}
